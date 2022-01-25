@@ -1,0 +1,33 @@
+{
+  "name": "@zhengxs/event-emitter",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./types/index.d.ts",
+  "typedocMain": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.mjs",
+    "import": "./dist/index.mjs"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "types"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@zhengxs/util": "0.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "author": {
+    "name": "zhengxs2018",
+    "email": "zhengxs2018@foxmail.com"
+  },
+  "license": "MIT"
+}

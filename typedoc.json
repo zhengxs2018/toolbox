@@ -1,0 +1,20 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "./packages/shared",
+    "./packages/util",
+    "./packages/event-emitter"
+  ],
+  "entryPointStrategy": "Packages",
+  "out": "./docs/.vuepress/dist/api",
+  "exclude": ["test", "__tests__", "*.(spec|test).ts"],
+  "readme": "none",
+  "validation": true,
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "disableSources": true,
+  "hideGenerator": true,
+  "includeVersion": true,
+  "cleanOutputDir": true
+}
